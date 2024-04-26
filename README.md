@@ -60,3 +60,11 @@ Predictions were made using the trained XGBoost model on the test data (xtest), 
 **Health Status Prediction:**
 
 Predictions were made using the trained XGBoost model on the 'newData' features, resulting in an array of predicted BMI values. These predicted values were categorized into health statuses based on BMI ranges, including 'Underweight', 'Normal', 'Overweight', 'Obese', and 'Extremely Obese'.
+
+**CONCLUSION:**
+
+Prediction of health status based on BMI can be improved with AI.
+XGBoost is a highly effective regression algorithm that can make very accurate predictions.
+This project can help the medical industry by predicting health status with high accuracy.
+There is still room for improvement, as healthcare and AI are constantly evolving.
+
