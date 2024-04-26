@@ -1,7 +1,9 @@
 **BMI PREDICTION PROJECT:**
+
 This project aims to predict Body Mass Index (BMI) using machine learning techniques. BMI is a measure of body fat based on height and weight that applies to adult men and women. The prediction is made using features such as age, height, weight, and sex.
 
 **LITERATURE REVIEW:**
+
 As a foundational step in this project, we conducted a literature review to understand existing approaches and findings related to BMI prediction. The process involved selecting and analyzing four research papers focusing on BMI prediction methods and outcomes. Key steps of the literature review process are outlined below:-
 
 **1. Selection of Research Papers:** We identified and selected four research papers from reputable journals and conference proceedings, each addressing different aspects of BMI prediction. The selected papers covered topics such as feature selection, machine learning algorithms, demographic factors, and health implications of BMI.
