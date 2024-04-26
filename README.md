@@ -35,11 +35,17 @@ After comparing, it was found that the heatmaps of both methods are the same.
 After comparing the heatmaps, the next step was data preprocessing. This involved the following steps:
 
 1.Renaming the column headers.
+
 2.Encoding the sex column using one-hot encoding.
+
 3.Separating the target column from the source data to compare with the predictions later.
+
 4.Scaling the data values using standard scaler.
+
 5.Splitting the data into training and testing sets.
-6.Creating a Predictive Data model using XGBRegressor
+
+6.Creating a Predictive Data model using XGBRegressor.
+
 
 Once the data preprocessing was completed, a predictive data model was created using XGBRegressor. This model was trained on the preprocessed data to predict BMI based on the selected features.
 
