@@ -18,7 +18,7 @@ As a foundational step in this project, we conducted a literature review to unde
 **5.Conclusion:** The literature review concluded with a synthesis of key insights gleaned from the analyzed papers, along with recommendations for future research directions. This informed our approach to designing and implementing the BMI prediction project, ensuring that it builds upon existing knowledge while addressing identified gaps and challenges.
 
 
-**METHODS COMPARISON**
+**METHODS COMPARISON:**
 
 **Method 1: Dropping Null Values**
 In this method, null values in the dataset are dropped, and linear regression modeling is applied to predict BMI based on height and weight data. After preprocessing, a heatmap of the dataset is generated and compared with Method 2.
@@ -26,10 +26,12 @@ In this method, null values in the dataset are dropped, and linear regression mo
 **Method 2: Filling Null Values with Central Tendencies**
 This method involves more advanced techniques such as filling null values with central tendencies (mean, median, mode). After preprocessing, including encoding sex columns using one-hot encoder and scaling the data values using standard scaler, a heatmap of the dataset is generated and compared with Method 1.
 
-**HEATMAP COMPARISON**
+**HEATMAP COMPARISON:**
+
 After comparing, it was found that the heatmaps of both methods are the same.
 
-**DATA PREPROCESSING**
+**DATA PREPROCESSING:**
+
 After comparing the heatmaps, the next step was data preprocessing. This involved the following steps:
 
 1.Renaming the column headers.
