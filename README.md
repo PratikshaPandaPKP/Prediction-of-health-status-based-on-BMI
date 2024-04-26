@@ -16,3 +16,36 @@ As a foundational step in this project, we conducted a literature review to unde
 **4.Formulation of Problem Statement:** Based on the findings of the literature review, we formulated a clear problem statement for our project, highlighting the need to develop a robust BMI prediction model that accounts for diverse demographic factors and utilizes advanced machine learning techniques.
 
 **5.Conclusion:** The literature review concluded with a synthesis of key insights gleaned from the analyzed papers, along with recommendations for future research directions. This informed our approach to designing and implementing the BMI prediction project, ensuring that it builds upon existing knowledge while addressing identified gaps and challenges.
+
+
+**METHODS COMPARISON**
+
+**Method 1: Dropping Null Values**
+In this method, null values in the dataset are dropped, and linear regression modeling is applied to predict BMI based on height and weight data. After preprocessing, a heatmap of the dataset is generated and compared with Method 2.
+
+**Method 2: Filling Null Values with Central Tendencies**
+This method involves more advanced techniques such as filling null values with central tendencies (mean, median, mode). After preprocessing, including encoding sex columns using one-hot encoder and scaling the data values using standard scaler, a heatmap of the dataset is generated and compared with Method 1.
+
+**HEATMAP COMPARISON**
+After comparing, it was found that the heatmaps of both methods are the same.
+
+**DATA PREPROCESSING**
+After comparing the heatmaps, the next step was data preprocessing. This involved the following steps:
+
+1.Renaming the column headers.
+2.Encoding the sex column using one-hot encoding.
+3.Separating the target column from the source data to compare with the predictions later.
+4.Scaling the data values using standard scaler.
+5.Splitting the data into training and testing sets.
+6.Creating a Predictive Data model using XGBRegressor
+
+Once the data preprocessing was completed, a predictive data model was created using XGBRegressor. This model was trained on the preprocessed data to predict BMI based on the selected features.
+
+Cross-Validation
+Cross-validation was performed using the XGBoost model on the 'newData' features and 'target' values with 5-fold cross-validation. The cross-validation scores were [0.99873248, 0.99895118, 0.99872162, 0.99865727, 0.99880439], with a mean score of 0.9987733870124897.
+
+Model Evaluation
+Predictions were made using the trained XGBoost model on the test data (xtest), yielding R-squared scores of 0.998825558006925. The predictions were consistent with the actual 'ytest' values, demonstrating the model's accuracy.
+
+Health Status Prediction
+Predictions were made using the trained XGBoost model on the 'newData' features, resulting in an array of predicted BMI values. These predicted values were categorized into health statuses based on BMI ranges, including 'Underweight', 'Normal', 'Overweight', 'Obese', and 'Extremely Obese'.
