@@ -53,11 +53,11 @@ Once the data preprocessing was completed, a predictive data model was created u
 
 Cross-validation was performed using the XGBoost model on the 'newData' features and 'target' values with 5-fold cross-validation. The cross-validation scores were [0.99873248, 0.99895118, 0.99872162, 0.99865727, 0.99880439], with a mean score of 0.9987733870124897.
 
-**Model Evaluation:**
+**MODEL EVALUATION:**
 
 Predictions were made using the trained XGBoost model on the test data (xtest), yielding R-squared scores of 0.998825558006925. The predictions were consistent with the actual 'ytest' values, demonstrating the model's accuracy.
 
-**Health Status Prediction:**
+**HEALTH STATUS PREDICTION:**
 
 Predictions were made using the trained XGBoost model on the 'newData' features, resulting in an array of predicted BMI values. These predicted values were categorized into health statuses based on BMI ranges, including 'Underweight', 'Normal', 'Overweight', 'Obese', and 'Extremely Obese'.
 
