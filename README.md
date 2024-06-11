@@ -1,9 +1,9 @@
-### BMI Prediction Project:
+**BMI Prediction Project:**
 
 This project aims to predict Body Mass Index (BMI) using machine learning techniques. BMI is a measure of body fat based on height and weight that applies to adult men and women. The prediction is made using features such as age, height, weight, and sex.
 
 
-### Literature Review:
+**Literature Review:**
 
 As a foundational step in this project, we conducted a literature review to understand existing approaches and findings related to BMI prediction. The process involved selecting and analyzing four research papers focusing on BMI prediction methods and outcomes. Key steps of the literature review process are outlined below:-
 
@@ -18,7 +18,7 @@ As a foundational step in this project, we conducted a literature review to unde
 **5. Conclusion:** The literature review concluded with a synthesis of key insights gleaned from the analyzed papers, along with recommendations for future research directions. This informed our approach to designing and implementing the BMI prediction project, ensuring that it builds upon existing knowledge while addressing identified gaps and challenges.
 
 
-### Methods Comparison:
+**Methods Comparison:**
 
 **Method 1: Dropping Null Values**
 In this method, null values in the dataset are dropped, and linear regression modeling is applied to predict BMI based on height and weight data. After preprocessing, a heatmap of the dataset is generated and compared with Method 2.
@@ -26,11 +26,11 @@ In this method, null values in the dataset are dropped, and linear regression mo
 **Method 2: Filling Null Values with Central Tendencies**
 This method involves more advanced techniques such as filling null values with central tendencies (mean, median, mode). After preprocessing, including encoding sex columns using one-hot encoder and scaling the data values using standard scaler, a heatmap of the dataset is generated and compared with Method 1.
 
-### Heatmap Comparison:
+**Heatmap Comparison:**
 
 After comparing, it was found that the heatmaps of both methods are the same.
 
-### Data Preprocessing:
+**Data Preprocessing:**
 
 After comparing the heatmaps, the next step was data preprocessing. This involved the following steps:
 
@@ -49,25 +49,25 @@ After comparing the heatmaps, the next step was data preprocessing. This involve
 
 Once the data preprocessing was completed, a predictive data model was created using XGBRegressor. This model was trained on the preprocessed data to predict BMI based on the selected features.
 
-### Cross-Validation:
+**Cross-Validation:**
 
 Cross-validation was performed using the XGBoost model on the 'newData' features and 'target' values with 5-fold cross-validation. The cross-validation scores were [0.99873248, 0.99895118, 0.99872162, 0.99865727, 0.99880439], with a mean score of 0.9987733870124897.
 
-### Model Evaluation:
+**Model Evaluation:**
 
 Predictions were made using the trained XGBoost model on the test data (xtest), yielding R-squared scores of 0.998825558006925. The predictions were consistent with the actual 'ytest' values, demonstrating the model's accuracy.
 
-### Health Status Prediction:
+**Health Status Prediction:**
 
 Predictions were made using the trained XGBoost model on the 'newData' features, resulting in an array of predicted BMI values. These predicted values were categorized into health statuses based on BMI ranges, including 'Underweight', 'Normal', 'Overweight', 'Obese', and 'Extremely Obese'.
 
-### Conclusion:
+**Conclusion:**
 
 Prediction of health status based on BMI can be improved with AI.
 XGBoost is a highly effective regression algorithm that can make very accurate predictions.
 This project can help the medical industry by predicting health status with high accuracy.
 There is still room for improvement, as healthcare and AI are constantly evolving.
 
-### Additional Context:
+**Additional Context:**
 
 Completed by me and my friend Amreen Kazi in October 2023 during our third semester in the MS in Data Science program as an assignment, this project represented the culmination of our collective efforts and academic endeavors. It served as a testament to our dedication, perseverance, and proficiency in the field of data science. As we reflect on this milestone achievement, completed within the structured framework of our MS program, we recognize the invaluable learning experiences, professional growth, and collaborative spirit fostered by our academic journey.
