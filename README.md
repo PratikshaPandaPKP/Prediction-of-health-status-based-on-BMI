@@ -1,4 +1,4 @@
-**BMI PREDICTION PROJECT:**
+### BMI Prediction Project:**
 
 This project aims to predict Body Mass Index (BMI) using machine learning techniques. BMI is a measure of body fat based on height and weight that applies to adult men and women. The prediction is made using features such as age, height, weight, and sex.
 
