@@ -74,10 +74,10 @@ Completed by me and my friend Amreen Kazi in October 2023 during our third semes
 
 **Project Files Overview:**
 
-**bmi_data.csv:** The dataset containing features for predicting Body Mass Index (BMI).
+**1. bmi_data.csv:** The dataset containing features for predicting Body Mass Index (BMI).
 
-**Prediction_of_health_status_based_on_Body-Mass-Index.ipynb:** The Jupyter Notebook containing the Python code for data preprocessing, model building, evaluation, and prediction of BMI and health status categories.
+**2. Prediction_of_health_status_based_on_Body-Mass-Index.ipynb:** The Jupyter Notebook containing the Python code for data preprocessing, model building, evaluation, and prediction of BMI and health status categories.
 
-**Literature Review, Problem Statement & Conclusion.pdf:** The report covering the literature review of four research papers, the formulated problem statement, and the project's conclusion.
+**3. Literature Review, Problem Statement & Conclusion.pdf:** The report covering the literature review of four research papers, the formulated problem statement, and the project's conclusion.
 
-**BODY MASS INDEX BDA Project PPT 02_09.pptx:** The PowerPoint presentation explaining the project's introduction, methodology, results, and findings.
+**4. BODY MASS INDEX BDA Project PPT 02_09.pptx:** The PowerPoint presentation explaining the project's introduction, methodology, results, and findings.
