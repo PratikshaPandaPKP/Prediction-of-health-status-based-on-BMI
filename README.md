@@ -72,11 +72,12 @@ There is still room for improvement, as healthcare and AI are constantly evolvin
 
 Completed by me and my friend Amreen Kazi in October 2023 during our third semester in the MS in Data Science program as an assignment, this project represented the culmination of our collective efforts and academic endeavors. It served as a testament to our dedication, perseverance, and proficiency in the field of data science. As we reflect on this milestone achievement, completed within the structured framework of our MS program, we recognize the invaluable learning experiences, professional growth, and collaborative spirit fostered by our academic journey.
 
-Project Files Overview:
-bmi_data.csv: The dataset containing features for predicting Body Mass Index (BMI).
+**Project Files Overview:**
 
-Prediction_of_health_status_based_on_Body-Mass-Index.ipynb: The Jupyter Notebook containing the Python code for data preprocessing, model building, evaluation, and prediction of BMI and health status categories.
+**bmi_data.csv:** The dataset containing features for predicting Body Mass Index (BMI).
 
-Literature Review, Problem Statement & Conclusion.pdf: The report covering the literature review of four research papers, the formulated problem statement, and the project's conclusion.
+**Prediction_of_health_status_based_on_Body-Mass-Index.ipynb:** The Jupyter Notebook containing the Python code for data preprocessing, model building, evaluation, and prediction of BMI and health status categories.
 
-BODY MASS INDEX BDA Project PPT 02_09.pptx: The PowerPoint presentation explaining the project's introduction, methodology, results, and findings.
+**Literature Review, Problem Statement & Conclusion.pdf:** The report covering the literature review of four research papers, the formulated problem statement, and the project's conclusion.
+
+**BODY MASS INDEX BDA Project PPT 02_09.pptx:** The PowerPoint presentation explaining the project's introduction, methodology, results, and findings.
