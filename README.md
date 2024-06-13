@@ -86,7 +86,8 @@ Completed by me and my friend Amreen Kazi in October 2023 during our third semes
 
 1.**Input:**
 
-![image](https://github.com/PratikshaPandaPKP/Prediction-of-health-status-based-on-BMI/assets/112324400/9d12fbfe-47b2-4a69-bb32-c8b1add74200)
+![image](https://github.com/PratikshaPandaPKP/Prediction-of-health-status-based-on-BMI/assets/112324400/24451edd-6509-4ced-92c2-1e80a958a1c5)
+
 
 2.**Output:**
 
