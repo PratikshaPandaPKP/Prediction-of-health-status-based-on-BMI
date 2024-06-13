@@ -81,3 +81,14 @@ Completed by me and my friend Amreen Kazi in October 2023 during our third semes
 **3. Literature Review, Problem Statement & Conclusion.pdf:** The report covering the literature review of four research papers, the formulated problem statement, and the project's conclusion.
 
 **4. BODY MASS INDEX BDA Project PPT 02_09.pptx:** The PowerPoint presentation explaining the project's introduction, methodology, results, and findings.
+
+**Input Data and Output Results:**
+
+1.**Input:**
+
+![image](https://github.com/PratikshaPandaPKP/Prediction-of-health-status-based-on-BMI/assets/112324400/9d12fbfe-47b2-4a69-bb32-c8b1add74200)
+
+2.**Output:**
+
+
+
