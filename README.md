@@ -84,12 +84,12 @@ Completed by me and my friend Amreen Kazi in October 2023 during our third semes
 
 **Input Data and Output Results:**
 
-1. **Input:**
+- **Input:**
 
 ![image](https://github.com/PratikshaPandaPKP/Prediction-of-health-status-based-on-BMI/assets/112324400/24451edd-6509-4ced-92c2-1e80a958a1c5)
 
 
-2. **Output:**
+- **Output:**
 
 ![image](https://github.com/PratikshaPandaPKP/Prediction-of-health-status-based-on-BMI/assets/112324400/b3dee37e-7beb-4bb2-ae66-702aeb882216)
 
